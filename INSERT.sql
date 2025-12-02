@@ -1,0 +1,83 @@
+/*Comandos INSERT*/
+
+INSERT INTO CLIENTE (
+	ID_CLIENTE,
+	NOME,
+	TELEFONE,
+	ENDERECO
+) VALUES (
+	1,
+	'Juliana Mayumi Ischibaschi Mifo',
+	'(11) 99212-4885',
+	'Rua Bezerra de Menezes, 999, Casa 01'
+);
+
+INSERT INTO ENTREGADOR (
+	ID_ENTREGADOR,
+	NOME,
+	TELEFONE
+) VALUES (
+	1,
+	'Leonardo da Silva Guedes Oliveira',
+	'(15) 99757-0173'
+);
+
+INSERT INTO PRODUTO (
+	ID_PRODUTO,	
+	NOME,
+	PRECO,
+	TIPO
+) VALUES (
+	1,
+	'Pizza de Calabresa',
+	72.90,
+	'Pizza'
+);
+
+INSERT INTO INGREDIENTE (
+	ID_INGREDIENTE,
+	NOME
+) VALUES (
+	1,
+	'Calabresa'
+);
+
+INSERT INTO INGREDIENTE (
+	ID_INGREDIENTE,
+	NOME
+) VALUES (
+	2,
+	'Molho de tomate'
+);
+
+INSERT INTO INGREDIENTE (
+	ID_INGREDIENTE,
+	NOME
+) VALUES (
+	3,
+	'Azeitona'
+);
+
+INSERT INTO PRODUTO_INGREDIENTE (
+	ID_INGREDIENTE,
+	ID_PRODUTO
+) VALUES (
+	1,
+	1
+);
+
+INSERT INTO PRODUTO_INGREDIENTE (
+	ID_INGREDIENTE,
+	ID_PRODUTO
+) VALUES (
+	2,
+	1
+);
+
+INSERT INTO PRODUTO_INGREDIENTE (
+	ID_INGREDIENTE,
+	ID_PRODUTO
+) VALUES (
+	3,
+	1
+);
