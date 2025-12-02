@@ -22,10 +22,6 @@ O modelo de dados foi construído seguindo as melhores práticas de normalizaç�
 | `PEDIDO` | Registro da transação de compra (não incluída nos scripts de criação, mas essencial para o modelo lógico). |
 | `ITEM_PEDIDO` | Detalha os produtos que compõem um pedido (não incluída nos scripts de criação, mas essencial para o modelo lógico). |
 
-### Diagrama Lógico (3FN)
-
-O diagrama lógico completo, que serviu de base para a criação das tabelas, pode ser visualizado na imagem `pizzaria_der_logico.png` (anexada na entrega anterior).
-
 ## 💻 Scripts SQL
 
 O arquivo `pasted_content.txt` contém uma série de comandos SQL para a criação da estrutura do banco de dados, inserção de dados de exemplo e operações básicas de manipulação (SELECT, UPDATE, DELETE).
